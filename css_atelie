@@ -1,0 +1,272 @@
+/* BOTÃO WHATSAPP FIXO */
+.whatsapp-fixo {
+	position: fixed;
+	bottom:15px;
+	right:15px;
+	z-index: 999;
+}
+
+
+/* MUDANÇA TAMANHO FONTE */
+body {
+    font-size:14px;
+}
+
+
+/* DIMINUI MARGEM ENTRE A BARRA DE CATEGORIAS E PARTE SUPERIOR DA PÁGINA */
+#cabecalho .menu.superior {
+	margin:0 !important;
+}
+
+
+/* AJUSTE TAMANHO BARRA SUPERIOR DE CATEGORIAS */
+#cabecalho .menu.superior .nivel-um {
+	display: flex;
+   	justify-content: center;
+    background-color: #FFABC6;
+}
+
+
+@media (max-width: 920px) {
+    .menu.superior .nivel-um{
+
+        flex-wrap: wrap !important;
+    }
+    .span3 {
+     	display: none !important;   
+    }
+}
+
+
+/* MUDANÇA COR BARRA SUPERIOR DE CATEGORIAS */
+.menu.superior {
+	background-color:rgba(0,0,0,0);
+}
+
+
+/* TIRANDO IMAGEM DE FUNDO E MUDANDO A COR DE FUNDO DO RODAPÉ (PARTE SUPERIOR) */
+.institucional {
+    background-image: none !important;
+	background-color: #FFABC6 !important;
+}
+
+
+/* TIRANDO IMAGEM DE FUNDO DO RODAPÉ (PARTE INFERIOR) */
+.pagamento-selos {
+	background-image: none !important;
+}
+
+
+/* MUDANÇA COR ICONES BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato i {
+	color:#FE6999 !important;
+}
+
+
+/* MUDANÇA COR DA FONTE BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato a {
+	color:#444 !important;
+}
+
+
+/* MUDANÇA COR DA FONTE BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato {
+	color:#444 !important;
+}
+
+
+/* MUDANÇA CORES DO TEXTO DA PARTE SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato span {
+	color: #444 !important;
+} 
+
+
+/* TIRAR BARRA DE DIVISÃO E AUMENTAR ESPAÇO ENTRE OS TEXTOS DA BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato ul li {
+    padding-left: 10px;
+    margin-left: 18px;
+    border: none; 
+}
+
+
+/* MUDANÇA DA COR DE FUNDO DO ICONE DO CARRINHO DE COMPRAS (AO PASSAR O MOUSE POR CIMA) (DEIXAR A MESMA COR DO BOTÃO) */
+.carrinho .icon-shopping-cart {
+	background-color: #444 !important;
+}
+
+
+/* MUDANÇA DE COR DOS ICONES DA PARTE SUPERIOR DO SITE (CATEGORIAS E BUSCAS)*/
+#cabecalho .fundo-secundario {
+	background-color:#FE6999 !important;
+}
+
+
+/* MUDANÇA DE COR DOS ICONES DA PARTE SUPERIOR DO SITE AO PASSAR O MOUSE POR CIMA (CATEGORIAS E BUSCAS)*/
+#cabecalho .fundo-secundario:hover {
+	background-color: #FE6999 !important;
+}
+
+
+/* MUDANÇA DE COR DOS ICONE DO CARRINHO DE COMPRAS */
+.carrinho .icon-shopping-cart {
+	background-color: #FE6999 !important;
+} 
+
+
+/* MUDANÇA DAS BORDAS E COR DA BARRA DE BUSCAS NA PARTE SUPERIOR */
+.busca {
+	background-color:#fff;
+    border:none;
+}
+
+
+/* MUDANÇAS NA PARTE DE REDES SOCIAIS DO RODAPÉ */
+#rodape .redes-sociais {
+    padding: 0;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background: none;
+    box-shadow: none;
+}
+
+
+/* MUDANÇA NA COR DA FONTE NA PARTE DE REDES SOCIAIS DO RODAPÉ */
+.institucional .redes-sociais .titulo {
+    color: #444;
+}
+
+
+/* MUDANÇA NA COR DA BARRA SUPERIOR DE REDES SOCIAIS */ 
+#rodape .borda-principal {
+	border-color: #FFABC6;
+}
+
+
+/* MUDANÇA NA BARRA SUPERIOR AO BAIXAR A PÁGINA */
+#barraTopo{
+	background-color:#FFABC6;
+}
+
+
+/* MUDANÇA NA BARRA SUPERIOR AO BAIXAR A PÁGINA */
+a:visited, button:focus {
+    outline: 0;
+    text-decoration: none;
+    color: #444;
+}
+
+
+/* MUDANÇA NA COR DO ÍCONE DE BUSCAS DA BARRA SUPERIOR */
+.busca .botao-busca {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 30px;
+    background-color: #FE6999;
+}
+
+
+/* COLOCAR BORDAS NA PARTE SUPERIOR E INFERIOR DA BARRA DE CATEGORIAS*/ 
+.menu.superior{
+	border:none;
+    margin-bottom:0px;
+    max-width: 100%;
+}
+
+
+/* TIRAR BORDAS DE SEPARAÇÃO DA BARRA DE CATEGORIAS */
+.menu.superior .nivel-um>li {
+    float: left;
+    border:none;
+}
+
+
+/* MUDANÇA DE ESPESSURA DAS BARRAS */
+.borda-principal {
+    border-width: 1px 0 0;
+    border-style: solid;
+}
+
+
+/* MUDANÇA DE TAMANHO LOGO DA EMPRESA */
+.logo a {
+    position: relative;
+    display: block;
+    height: 160px;
+}
+
+
+/* ESTICAR O CONTAINER SUPERIOR PARA TODA A LARGURA DA TELA */
+#cabecalho .conteiner {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+
+/* AJUSTAR MARGEM DO MENU SUPERIOR E CENTRALIZAR OS CONTEUDOS  */
+#cabecalho .row-fluid {
+   	display: flex !important;
+    width: 87% !important;
+    align-items: center !important;
+    padding: 10px 0px !important;
+    margin: 0 auto !important;
+} 
+
+
+/* ESTICAR O BANNER PARA TODA A LARGURA DA TELA */
+.secao-banners .conteiner {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+
+/* Retirar margens do banner */
+.span12 .flexslider {
+    background: 0 !important; 
+    margin: 0 !important;
+    border: none !important;
+    overflow: unset !important;
+}
+
+
+/* LIMITAÇÃO DA MARGEM DOS MINIBANNERS */
+.banner.cheio+.row-fluid {
+    margin: 30px auto !important;
+    max-width: 1140px !important;
+}
+
+
+/* COR DO TEXTO DA BARRA DE CATEGORIAS */
+.menu.superior .titulo {
+    margin: 15px 0 !important;
+    color: #444 !important;
+}
+
+
+/*MUDANÇA DE COR DE TEXTO PARA PRETO*/
+.fundo-secundario, .fundo-secundario *, .fundo-secundario *:hover, .fundo-secundario:hover, .fundo-secundario.botao:hover {
+    color: #444;
+}
+
+
+/*MUDANÇA DO 'F' DO FACEBOOK PARA BRANCO*/
+.lista-redes .icon-facebook {
+    background-color: #3a589b !important;
+    color:#fff !important;
+}
+
+
+/*ALTERAR TAMANHO DOS BOTÕES DE VARIAÇÃO*/
+.atributo-comum a span {
+    padding: 0 10px;
+    min-width: 10px;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #666;
+    font-size: 11px !important;
+}
