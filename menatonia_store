@@ -1,0 +1,237 @@
+/* BOTÃO WHATSAPP FIXO */
+.whatsapp-fixo {
+	position: fixed;
+	bottom:15px;
+	right:15px;
+	z-index: 999;
+}
+
+#barraTopo .conteiner {
+    background: 0;
+    box-shadow: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    height: auto !important;
+    padding: 5px;
+}
+
+
+.conteiner {
+	max-width: none;
+	margin: 0 auto;
+    
+}
+
+.conteiner-principal #rodape .conteiner {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 100px;
+}
+
+.institucional {
+	background-image: none !important;
+	background-color: #0E8F6B !important;
+    margin: 100px auto;
+}
+
+.botao {
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.1);
+        border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(0,0,0,0.2);
+    /*color: #555; */
+    font-size: 14px;
+    line-height: normal;
+    text-transform: none;
+    padding: 6px 14px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #000;
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.1),rgba(0,0,0,0.1));
+    white-space: nowrap;
+}
+
+/* MUDANÇA TAMANHO FONTE */
+.body {
+    font-size:1.2EM;
+    line-height: normal;
+}
+
+
+/* AJUSTE TAMANHO BARRA SUPERIOR DE CATEGORIAS */
+.menu.superior .nivel-um {
+	width: 46em;
+    margin: 0 auto;
+}
+
+
+/* MUDANÇA COR BARRA SUPERIOR DE CATEGORIAS */
+.menu.superior {
+	background-color: #fff;
+}
+
+
+/* TIRANDO IMAGEM DE FUNDO E MUDANDO A COR DE FUNDO DO RODAPÉ (PARTE SUPERIOR) */
+.institucional {
+    background-image: none !important;
+    background-color: #0E8F6B !important;
+	
+}
+
+
+/* TIRANDO IMAGEM DE FUNDO DO RODAPÉ (PARTE INFERIOR) */
+.pagamento-selos {
+	background-image: none !important;
+}
+
+
+/* MUDANÇA COR ICONES BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato i {
+	color: #0E8F6B !important;
+}
+
+
+/* MUDANÇA COR DA FONTE BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato a {
+	color:#fff !important;
+}
+
+
+/* MUDANÇA COR DA FONTE BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato {
+	color:#fff !important;
+}
+
+
+/* MUDANÇA CORES DO TEXTO DA PARTE SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato span {
+	color: #fff !important;
+} 
+
+
+/* TIRAR BARRA DE DIVISÃO E AUMENTAR ESPAÇO ENTRE OS TEXTOS DA BARRA SUPERIOR (FALE CONOSCO E TELEFONE) */
+.canais-contato ul li {
+    padding-left: 10px;
+    margin-left: 18px;
+    border: none; 
+}
+
+
+/* MUDANÇA DA COR DE FUNDO DO ICONE DO CARRINHO DE COMPRAS (AO PASSAR O MOUSE POR CIMA) (DEIXAR A MESMA COR DO BOTÃO) */
+.carrinho .icon-shopping-cart {
+	background-color: #444 !important;
+}
+
+
+/* MUDANÇA DE COR DOS ICONES DA PARTE SUPERIOR DO SITE (CATEGORIAS E BUSCAS)*/
+#cabecalho .fundo-secundario {
+	background-color: !important;
+}
+
+
+/* MUDANÇA DE COR DOS ICONES DA PARTE SUPERIOR DO SITE AO PASSAR O MOUSE POR CIMA (CATEGORIAS E BUSCAS)*/
+#cabecalho .fundo-secundario:hover {
+	background-color: #0E8F6B !important;
+}
+
+
+/* MUDANÇA DE COR DOS ICONE DO CARRINHO DE COMPRAS */
+.carrinho .icon-shopping-cart {
+	background-color: #0E8F6B !important;
+} 
+
+
+/* MUDANÇA DAS BORDAS E COR DA BARRA DE BUSCAS NA PARTE SUPERIOR */
+.busca {
+	background-color:#fff;
+    border:none;
+}
+
+
+/* MUDANÇAS NA PARTE DE REDES SOCIAIS DO RODAPÉ */
+#rodape .redes-sociais {
+    padding: 0;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background: none;
+    box-shadow: none;
+}
+
+
+/* MUDANÇA NA COR DA FONTE NA PARTE DE REDES SOCIAIS DO RODAPÉ */
+.institucional .redes-sociais .titulo {
+    color: #fff;
+}
+
+
+/* MUDANÇA NA COR DA BARRA SUPERIOR DE REDES SOCIAIS */ 
+#rodape .borda-principal {
+	border-color: #0E8F6B;
+}
+
+
+/* MUDANÇA NA BARRA SUPERIOR AO BAIXAR A PÁGINA */
+#barraTopo{
+	background-color: #fff;
+}
+
+
+/* MUDANÇA NA BARRA SUPERIOR AO BAIXAR A PÁGINA */
+a:visited, button:focus {
+    outline: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* MUDANÇA NA COR DO ÍCONE DE BUSCAS DA BARRA SUPERIOR */
+.busca .botao-busca {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 30px;
+    background-color: #0E8F6B;
+}
+
+
+/* COLOCAR BORDAS NA PARTE SUPERIOR E INFERIOR DA BARRA DE CATEGORIAS */
+.menu.superior{
+	border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+
+/* TIRAR BORDAS DE SEPARAÇÃO DA BARRA DE CATEGORIAS */
+.menu.superior .nivel-um>li {
+    float: left;
+    border:none;
+}
+
+
+/* MUDANÇA DE ESPESSURA DAS BARRAS */
+.borda-principal {
+    border-width: 1px 0 0;
+    border-style: solid;
+}
+
+
+/* MUDANÇA DE TAMANHO LOGO DA EMPRESA */
+.logo a {
+    position: relative;
+    display: block;
+    height: 160px;
+}
+
+
+/* ALINHAMENTO DO CONTEÚDO DO CABEÇALHO */
+#cabecalho .row-fluid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
